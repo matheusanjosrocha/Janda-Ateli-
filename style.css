@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Luxurious+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Kalam:wght@300;400;700&family=Luxurious+Script&display=swap');
+
+
+
+
+:root{
+   --cor01: #bba6a6;
+   --cor05: #c48686cd;
+   --cor02: #AA9839;
+   --cor03: #AA8139;
+   --cor04: #c8d773;
+
+   --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+   --fonte-padrão2: 'Kalam', cursive;
+   --fonte-destaque: 'Allura', cursive;
+   --fonte-destaque2: 'Luxurious Script', cursive;
+   --fonte-destaque3: 'Fleur De Leah', cursive;
+}
+
+body {
+   font-family: var(--fonte-padrão2);
+   font-size: 16px;
+   background-color: var(--cor01);
+   margin: 20px;
+   text-align: justify;
+}
+
+
+main {
+   background-color: rgba(255, 255, 255, 0.888);
+   border-radius: 0px 0px 15px 15px;
+   padding: 20px;
+  
+   
+}
+
+#contato, #servico {
+   columns: 2;
+
+}
+
+nav {
+   text-align: center;
+   background-color: var(--cor03);
+   border-radius: 15px 15px 0px 0px;
+   padding: 5px;
+}
+
+nav > a:hover {
+   background-color: rgba(235, 175, 175, 0.441);
+   font-weight: bold;
+   border-radius: 5px;
+   padding: 0px;
+   margin: 8px;
+   text-overflow: none;
+}
+
+picture{
+   justify-content: center;
+   align-items: center;
+   display: block;
+   display: flex;
+   padding: 10px;
+   max-width: 100%;
+   height: auto;
+
+}
+
+h1#tema {
+   font-family: var(--fonte-destaque);
+   font-size: 3.5em;
+   text-align: center;
+   text-shadow: 5px 5px rgba(0, 0, 0, 0.325);
+}
+
+h2 {
+   font-family:var(--fonte-destaque);
+   font-size: 2em;
+   text-align: center;
+
+}
+
+p {
+   margin-bottom: 50px ;
+}
+
